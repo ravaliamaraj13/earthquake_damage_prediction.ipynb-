@@ -16,8 +16,7 @@ Dashboard.pbix - Power BI dashboard showing accuracy, feature importance,and reg
 
 **Dataset Source**
 
-Earthquake Damage Assessment Dataset (Kaggle): https://d3ilbtxij3aepc.cloudfront.net/projects/CDS-Capstone-Projects/PRCP-1015-
-EquakeDamagePred.zip
+Earthquake Damage Assessment Dataset (Kaggle).
 
 **PROJECT STEPS**
 
