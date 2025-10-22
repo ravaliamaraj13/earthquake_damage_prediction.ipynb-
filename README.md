@@ -10,15 +10,15 @@ It aims to classify the extent of damage (Grade 1–3) for each building based o
 All insights and model results are visualized using Power BI dashboards for better understanding and regional comparison.
 
 **FILES IN THE PROJECT**                                     
-Earthquake_Damage_Prediction.ipynb -  Jupyter Notebook with full ML workflow —preprocessing, training, and evaluation.
+Earthquake_Damage_Prediction.ipynb  -  Jupyter Notebook with full ML workflow —preprocessing, training, and evaluation.
 
-feature_importance.csv - Combined feature importance results from all modelS.
+feature_importance.csv   - Combined feature importance results from all modelS.
 
-predictions.csv  -  Predicted damage grades for buildings.
+predictions.csv    -  Predicted damage grades for buildings.
 
-final_predictions_for_dashboard.csv - Clean dataset used in Power BI dashboard.
+final_predictions_for_dashboard.csv   - Clean dataset used in Power BI dashboard.
 
-Dashboard.pbix - Power BI dashboard showing accuracy, feature importance,and regional damage.
+Dashboard.pbix   - Power BI dashboard showing accuracy, feature importance,and regional damage.
 
 **Dataset Source**
 
@@ -38,15 +38,15 @@ Feature Importance: Identified most influential attributes using model-based ran
 
 Visualization: Created interactive Power BI dashboard to visualize regional accuracy and predictions.
 
-**MODEL HIGHLIGHTS**
-Model	                   Accuracy	      F1-Macro
-Logistic Regression	      0.57	           0.33
 
-Decision Tree	            0.63	           0.57
+**Model Highlights**
 
-Random Forest            	0.70	           0.61
-
-XGBoost (Best)	          0.72	           0.64
+| Model                 | Accuracy | F1-Macro |
+|-----------------------|----------|----------|
+| Logistic Regression   | 0.57     | 0.33     |
+| Decision Tree         | 0.63     | 0.57     |
+| Random Forest         | 0.70     | 0.61     |
+| XGBoost (Best)        | 0.72     | 0.64     |
 
 **KEY OBSERVATIONS**
 
