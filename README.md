@@ -54,9 +54,12 @@ Building Age vs Damage Correlation
 1.Clone this repository
 git clone https://github.com/ravaliamaraj13/Earthquake-Damage-Prediction.git
 cd Earthquake-Damage-Prediction
+
 2.Install dependencies:
 pip install -r requirements.txt
+
 3.Run all cells — it will generate prediction CSV files.
+
 **Open Power BI Dashboard**
 Open Dashboard.pbix in Power BI Desktop.
 Refresh data connections to view updated accuracy and regional insights.
